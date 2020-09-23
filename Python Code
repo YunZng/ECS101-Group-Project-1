@@ -1,0 +1,10 @@
+inputTextList=[]
+outputTextList=[]
+compressionChars=[]
+compressionShortBinary=[]
+compressionLongBinary=[]
+for i in range (64):
+	compressionLongBinary.append("{0:{fill}7b}".format(i,fill="0"))
+for i in range (64):
+	print (compressionLongBinary[i])
+inputType=int(input("What are you trying to do?\n(1)Text to binary\n(2)Binary to text\n"))
