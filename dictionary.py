@@ -21,3 +21,5 @@ for y in range(27, 53, 1):
     print(Dlist[chr(y+38)]) # to test out if the keys and values are actually in the dictionary verbosely 
 #inputType=int(input("What are you trying to do?\n(1)Text to binary\n(2)Binary to text\n"))
 
+#Mods to the ASCII ordered dictionary 
+#Dlist[character] = bit value 
