@@ -1,5 +1,6 @@
 # ECS101-Group-Project-1
-Lahray, Yulun, Sydney, Yiyuan
+Lahray, Yulun, Sydney, Yuyuan
+
 - [ ] - Create an arraylist for characters.
 
 - [ ] - Create an arraylist for corresponding binary.
