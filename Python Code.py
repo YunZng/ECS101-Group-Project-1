@@ -33,7 +33,7 @@ for z in range(52, 64):
 # Adds adds all the short binary to blist
 blist.extend(cShortBinary)
 # Then put all the values to be assigned to the long binary blist
-clist = ["have","it","that","for","not","on","he","ea","as",".",",","this","\'","\"","\n","-","!","you","do","at","but"," ","e","t","a","o","i","n","h","r","d","the","to","be","ate","and","ion"]
+clist = ["have","it","that","for","not","in","he","an","as",".",",","this","\'","\"","\n","-","!","is","do","to","and"," ","e","t","a","o","i","n","h","r","d","the","er","re","on","th","at"]
 # Replace the definition of the existing binary
 for i in range (len(clist)):
 	dList[clist[i]]=blist[i]
@@ -70,7 +70,7 @@ elif ask == "2":
 	while (s<len(myString)):
 		# Starting at index s, try to slice a segment with the length of (s to s+4) first, then (s to s+3), (s to s+2), (s to s+1), (s)
 		for length in range(4,0,-1):
-			# if the string segment is a thing is the dList, then the corresponding value for the segment, which is the binary, will be added to outputs, and then next index to start examining will skip by the length of the segment
+			# if the string segment is a thing is the dList, then the corresponding value for the segment, which is the binary, will be added to outputs, and then next index to start examining will skip by the length of the segment.
 			if myString[s:s+length] in dList:
 				outputs+=dList[myString[s:s+length]]
 				s+=length
