@@ -8,7 +8,6 @@ sIndex=0
 outputs=""
 # This is dictionary, it is a good way to match one value to another, a : 'b', now a has the value 'b'
 dList = {}
-wList={}
 # Create a function that fetches the key of a value
 def getkey(want):
 	for key, value in dList.items():
