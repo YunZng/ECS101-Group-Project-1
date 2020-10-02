@@ -13,3 +13,6 @@ If the user chose to convert binary to string, then the program will convert seg
 If the user chose to convert string to binary, then the program will start from the first index of the string and try the maximum length of the string in dictionary to minimum length, check if that segment exists in the dictionary, if yes, then it will add the corresponding binary to the output.
 
 Instruction for this program is not necessary.
+Total lines: 77 lines
+Comments: 28 lines
+Code: 49 lines
