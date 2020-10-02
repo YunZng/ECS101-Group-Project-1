@@ -1,5 +1,5 @@
 Our program first initialize a bunch of lists and a dictionary. The following steps are done in a loop.
-The lists are used to input long and short binary numbers, they will be usefull when matching with the characters.
+The lists are used to input long and short binary numbers, they will be useful when matching with the characters.
 The dictionary is used to match characters to their corresponding binary.
 The next step is to put everything needed to adjust in two separate lists, with each character in one list corresponds to the binary in another list.
 Using a for loop, all of the values in can be updated easily.
